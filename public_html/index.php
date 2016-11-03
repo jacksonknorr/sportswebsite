@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<!--Ashtyne--> 
 <html lang="en">
 
   <head>
@@ -42,18 +42,8 @@
 
     <h1> iSports </h1>
 
-    <nav>
-      <ul>
-        <li> <a href="index.html">Main Page</a> </li>
-        <li> <a href="football.html">Football</a> </li>
-        <li> <a href="basketball.html">Basketball</a> </li>         
-        <li> <a href="baseball.html">Baseball</a> </li>          
-        <li> <a href="articles.html">Articles of the Day</a> </li>
-        <li> <a href="about.html">About</a> </li>       
-        <li style="float:right"> <a class="active" href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a> </li>
-        <li style="float:right"> <a class="active" href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a> </li>
-      </ul>
-    </nav>
+                         <?php include '../1resources/nav.php'; ?>
+
 
     <img src="img/mainpage.png" alt="All Sports Banner" />
 
@@ -62,13 +52,13 @@
     <p> Take a look around the website and Learn about the latest sports news </p>
 
     <div>
-      <p> <a href="signup.html" class="btn btn-success"><span class="glyphicon glyphicon-user"></span> Sign Up</a> or <a href="login.html" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> Login</a></p>
+      <p> <a href="signup.html" class="btn btn-success">Sign Up</a> or <a href="login.html" class="btn btn-success">Login</a></p>
     </div>
     
     <br>
+          <?php include '../1resources/foot.php'; ?>
 
-    <footer> &copy; Copyright 2016, iSports News</footer>
-    
+    <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>

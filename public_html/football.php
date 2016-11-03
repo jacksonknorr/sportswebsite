@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-
+<!--Ashtyne-->
 <html lang="en">
 
   <head>
 
     <meta charset="utf-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/style_sheet.css">
 
@@ -26,25 +22,14 @@
   </head>
 
   <body>
-      
+      <img src="img/football.png" alt="Football" />
+
       <h1> Football News </h1>
 
-      <nav>
-          <ul>
-            <li> <a href="index.html">Main Page</a> </li>
-            <li> <a href="football.html">Football</a> </li>
-            <li> <a href="basketball.html">Basketball</a> </li>         
-            <li> <a href="baseball.html">Baseball</a> </li>          
-            <li> <a href="articles.html">Articles of the Day</a> </li>         
-            <li> <a href="about.html">About</a> </li>
-          </ul>
-        </nav>
-        <img src="img/football.png" alt="Football" />
+                     <?php include '../1resources/nav.php'; ?>
 
-    
-    <div class="container">
-    
 
+    <div>
 
       <h3>Today's Scores </h3>
       
@@ -107,7 +92,7 @@
       </table>
       
 
-    
+    </div>
     
     <br>
     <br>
@@ -121,7 +106,7 @@
       <img src="img/footballimage.png" alt=""/>
 
     </div>
-    </div>
+
     <br>
     <br>
     <br>
@@ -132,10 +117,9 @@
     <br>
     <br>
     
-    <footer> &copy; Copyright 2016, iSports News</footer>
+          <?php include '../1resources/foot.php'; ?>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   </body>
 
 </html>
